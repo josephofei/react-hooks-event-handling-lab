@@ -29,3 +29,4 @@ test("removing focus (blur) on the button triggers console output", () => {
   expect(console.log).toHaveBeenCalled();
   expect(console.log.mock.calls[0][0]).toBe("Hey! Eyes on me!");
 });
+
